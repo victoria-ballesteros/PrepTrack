@@ -1,7 +1,35 @@
+using DotNetEnv;
+using Supabase;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient();
+
+Env.Load();
+
+builder.Services.AddScoped<Supabase.Client>(_ =>
+{
+    var supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL");
+    var supabaseKey = Environment.GetEnvironmentVariable("SUPABASE_API_KEY");
+
+    if (string.IsNullOrEmpty(supabaseUrl) || string.IsNullOrEmpty(supabaseKey))
+    {
+        throw new InvalidOperationException("Supabase URL and Key must be provided in configuration.");
+    }
+
+    return new Supabase.Client(
+        supabaseUrl,
+        supabaseKey,
+        new SupabaseOptions
+        {
+            AutoRefreshToken = true,
+            AutoConnectRealtime = true
+        }
+    );
+});
 
 var app = builder.Build();
 
