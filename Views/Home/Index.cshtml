@@ -30,13 +30,13 @@
   <header class="sticky top-0 z-50 bg-blue-800 text-white w-full">
     <div class="flex items-center p-3 w-full">
       <nav class="flex justify-between w-full items-center">
-        <button
+        <a asp-action="Index" asp-controller="Home"
           class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
           <span
             class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
           <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
           <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
-        </button>
+        </a>
 
         <img src="~/images/LogoUnetBlanco.png" class="h-12" />
       </nav>
@@ -132,7 +132,7 @@
   <!-- Footer -->
   <footer class="bg-gray-800 text-gray-200 py-6">
     <div class="container mx-auto text-center">
-      <p>&copy; 2024 Registro de Asistencia. Todos los derechos reservados.</p>
+      <p>&copy; 2024 Registro de Asistencia. Todos los derechos reservados a Gustavo Morillo y María Ballesteros.</p>
     </div>
   </footer>
 

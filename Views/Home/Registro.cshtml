@@ -1,60 +1,117 @@
 @model RegistroPreparadurias.Models.Registro;
 
-<div class="w-full h-full">
+@{
+    string[] colores = new string[] {
+"#E9C46A", // Amarillo dorado
+"#F9C74F", // Amarillo claro
+"#F4A261", // Naranja claro
+"#E76F51", // Naranja intenso
+"#E082AC", // Verde azulado
+"#A78BFA", // Lila suave
+"#6D63E5", // Lila-azulado
+"#5348B6", // Verde intenso
+"#2C5B63", // Azul medio
+"#264653", // Azul oscuro
+
+};
+
+    string[] coloresAzules = new string[] {
+"#87BFFF", // Azul claro suave
+"#5A9BF6", // Azul intermedio suave
+"#2E7BF6" // Azul oscuro suave
+};
+
+    int j = 0, a = 0;
+}
+
+<div class="">
     <!-- Navbar -->
     <header class="sticky top-0 z-50 bg-blue-800 text-white w-full">
         <div class="flex items-center p-3 w-full">
             <nav class="flex justify-between w-full items-center">
-                <button
+                <a  asp-action="Index" asp-controller="Home"
                     class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
                     <span
                         class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
                     <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
                     <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
-                </button>
+                </a>
 
                 <img src="~/images/LogoUnetBlanco.png" class="h-12" />
             </nav>
         </div>
     </header>
-    <div class="bg-blue-600 text-white py-20 text-center">
+    <div class="bg-blue-600 text-white py-10 text-center">
         <div class="p-4 text-center">
             <p class="text-4xl font-bold mb-4">Registro de Estudiantes</p>
-            <p class="text-lg">Por favor completa los campos solicitados a continuación, no sea imbécil</p>
+            <p class="text-lg">Por favor complete los campos solicitados a continuación, no sea imbécil</p>
         </div>
     </div>
-    <section class="py-16">
-        <div class="container mx-auto text-center">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <section class="py-10 w-full">
+        <div class="text-center w-full">
+            <div class="w-full">
                 <!-- Form -->
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <form asp-action="Registrar" method="post" enctype="multipart/form-data">
+                <div class="bg-white p-6 rounded-lg shadow-md w-full flex justify-center">
+                    <form asp-action="Registrar" asp-controller="Home" method="post">
                         <div class="flex flex-col gap-2">
-                            <div>
-                                <span class="text-sm dark:text-twitterDark-textPrimary">Name</span>
-                                <textarea asp-for="Cedula" id="nameInput" name="name" spellcheck="false"
-                                    autocomplete="off" placeholder="Name"
-                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
-                                    rows="1"></textarea>
-                            </div>
-                            <div>
-                                <span class="text-sm dark:text-twitterDark-textPrimary">Username</span>
-                                <textarea asp-for="NombreMateria" id="usernameInput" name="username" spellcheck="false"
-                                    autocomplete="off" placeholder="Username"
-                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
-                                    rows="1"></textarea>
-                                <div id="searchResult" class="">
+                            <span class="font-bold">Datos del registro</span>
+                            <div class="flex flex-col gap-2">
+                                <textarea asp-for="Cedula" id="cedulaInput" name="Cedula" spellcheck="false"
+                                    autocomplete="off" placeholder="Cédula"
+                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none"
+                                    rows="1">
+                                </textarea>
+
+                                <div class="w-full p-2 border rounded-lg">
+                                    <select id="preparador" asp-for="Preparador" name="Preparador"
+                                        class="w-full text-gray-500 text-left bg-white rounded-lg focus:outline-none">
+                                        <option value="" class="text-gray-400">Seleccione un preparador</option>
+                                        @foreach (var preparador in ViewBag.Preparadores)
+                                        {
+                                            <option value="@preparador.Nombre" class="text-white"
+                                                style="background-color: @colores[j];">@preparador.Nombre</option>
+                                            j = (j + 1) % colores.Length;
+                                        }
+                                    </select>
                                 </div>
-                            </div>
-                            <div>
-                                <span class="text-sm dark:text-twitterDark-textPrimary">Biography</span>
-                                <textarea asp-for="Preparador" id="descriptionInput" name="description"
-                                    spellcheck="false" autocomplete="off" placeholder="Say something about you"
-                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
-                                    rows="1"></textarea>
+
+                                <div class="w-full p-2 border rounded-lg">
+                                    <select id="materia" asp-for="NombreMateria" name="NombreMateria"
+                                        class="w-full text-gray-500 text-left bg-white rounded-lg focus:outline-none">
+                                        <option value="" class="text-gray-400">Seleccione una materia</option>
+                                        @foreach (var materia in ViewBag.Materias)
+                                        {
+                                            <option value="@materia.Nombre" class="text-white"
+                                                style="background-color: @coloresAzules[a];">@materia.Nombre</option>
+                                            a = (a + 1) % coloresAzules.Length;
+                                        }
+                                    </select>
+                                </div>
+
+                                <div class="w-full py-2 px-3 border rounded-lg">
+                                    <input asp-for="Seccion" type="number" id="seccionInput" name="Seccion" min="1"
+                                        placeholder="Sección"
+                                        class="w-full text-gray-500 placeholder-gray-500 text-left focus:outline-none"
+                                        autocomplete="off" />
+                                </div>
+
+                                <button type="submit"
+                                    class="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-blue-100 transition duration-300">Registrar
+                                    Estudiante
+                                </button>
+
+                                @if (ViewBag.ErrorMessage != null)
+                                {
+                                    <div
+                                        class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4">
+                                        <span class="block sm:inline">@ViewBag.ErrorMessage</span>
+                                    </div>
+                                }
                             </div>
                         </div>
                     </form>
+
+
                 </div>
             </div>
         </div>

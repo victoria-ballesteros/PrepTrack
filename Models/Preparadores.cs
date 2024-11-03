@@ -1,7 +1,7 @@
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
 
-namespace RegistroPreparadurias.Models.Preparadores
+namespace RegistroPreparadurias.Models
 {
     [Table("Preparadores")]
     public class Preparadores : BaseModel

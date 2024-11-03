@@ -6,7 +6,7 @@ namespace RegistroPreparadurias.Models
 
         public required string NombreMateria { get; set; }
 
-        public Guid Preparador { get; set; }
+        public required string Preparador { get; set; }
 
         public int Seccion { get; set; }
 

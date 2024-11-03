@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegistroPreparadurias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06d033aa944cefca06aa6dd08eb0469b399520b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6828b3e770a2fcf4d436798f0b1d4be6e096421c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegistroPreparadurias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegistroPreparadurias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

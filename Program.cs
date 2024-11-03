@@ -12,8 +12,8 @@ Env.Load();
 
 builder.Services.AddScoped<Supabase.Client>(_ =>
 {
-    var supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL");
-    var supabaseKey = Environment.GetEnvironmentVariable("SUPABASE_API_KEY");
+    var supabaseUrl = "https://wpocdqjwkmgjoxvecurs.supabase.co/";
+    var supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indwb2NkcWp3a21nam94dmVjdXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA2NDcyMzEsImV4cCI6MjA0NjIyMzIzMX0.dCJRedeJA5FGJSnl-xoWRWIKOAgklacqz58mubFnzqA";
 
     if (string.IsNullOrEmpty(supabaseUrl) || string.IsNullOrEmpty(supabaseKey))
     {

@@ -1,8 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RegistroPreparadurias.Models;
-using RegistroPreparadurias.Models.Preparadores;
-using RegistroPreparadurias.Models.Registro;
 
 namespace RegistroPreparadurias.Controllers;
 
@@ -24,23 +22,68 @@ public class HomeController : Controller
 
         var preparadores = _preparadores.Models;
 
-        foreach(var preparador in preparadores)
-        {
-            Console.WriteLine(preparador.Nombre);
-        }
-
         ViewBag.Preparadores = preparadores;
 
         return View();
     }
 
-    public IActionResult Registro()
+    public async Task<IActionResult> Registro()
     {
+        var _preparadores = await _supabase.From<Preparadores>().Get();
+
+        var preparadores = _preparadores.Models;
+
+        ViewBag.Preparadores = preparadores;
+
+        var _materias = await _supabase.From<Materias>().Get();
+
+        var materias = _materias.Models;
+
+        ViewBag.Materias = materias;
+
         return View();
     }
 
+    [HttpPost]
     public async Task<IActionResult> Registrar(Registro registro)
     {
+        if (!ModelState.IsValid)
+        {
+            ViewBag.ErrorMessage = "Por favor, corrija los errores en el formulario antes de continuar.";
+            return RedirectToAction("Index");
+        }
+
+        var _estudiante = await _supabase.From<Estudiantes>().Where(u => u.Cedula == registro.Cedula).Get();
+
+        if (_estudiante.Models.Count < 1)
+        {
+            Estudiantes estudiante = new()
+            {
+                Cedula = registro.Cedula
+            };
+
+            _estudiante = await _supabase.From<Estudiantes>().Insert(estudiante);
+
+            if (_estudiante.ResponseMessage == null || !_estudiante.ResponseMessage.IsSuccessStatusCode || _estudiante.Model == null)
+            {
+                return RedirectToAction("Index");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Javier es un estúpido");
+        }
+
+        Asistencias asistencia = new()
+        {
+            CedulaEstudiante = registro.Cedula,
+            NombrePreparador = registro.Preparador,
+            NombreMateria = registro.NombreMateria,
+            Seccion = registro.Seccion
+        };
+
+        var response = _supabase.From<Asistencias>().Insert(asistencia);
+
         return RedirectToAction("Registro");
     }
 
