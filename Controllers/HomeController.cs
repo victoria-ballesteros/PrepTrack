@@ -28,6 +28,8 @@ public class HomeController : Controller
             Console.WriteLine(preparador.Nombre);
         }
 
+        ViewBag.Preparadores = preparadores;
+
         return View();
     }
 

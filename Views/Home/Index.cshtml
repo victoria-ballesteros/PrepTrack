@@ -1,25 +1,29 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+  ViewData["Title"] = "Home Page";
 }
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro de Asistencia</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-100 text-gray-800">
 
   <!-- Navbar -->
   <header class="sticky top-0 z-50 bg-blue-800 text-white  w-full">
     <div class="flex items-center p-3 w-full">
-      <nav class ="flex justify-between w-full items-center" >
-        <button class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
-        <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
-        <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
-         <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
+      <nav class="flex justify-between w-full items-center">
+        <button
+          class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
+          <span
+            class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
+          <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
+          <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
         </button>
 
 
@@ -33,7 +37,9 @@
     <div class="container mx-auto text-center">
       <h1 class="text-4xl font-bold mb-4">Bienvenido al Sistema de Registro de Asistencia</h1>
       <p class="text-lg mb-8">Facilitamos el control de asistencia de estudiantes de forma rápida y eficiente.</p>
-      <a href="#" class="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-blue-100 transition duration-300">Registrar Estudiante</a>
+      <a href="#"
+        class="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-blue-100 transition duration-300">Registrar
+        Estudiante</a>
     </div>
   </section>
 
@@ -75,7 +81,14 @@
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-bold mb-4">¿Listo para empezar?</h2>
       <p class="text-lg mb-8">Únete y facilita el control de asistencia de tus estudiantes.</p>
-      
+      <div class="grid grid-cols-5 gap-2 p-2">
+        @foreach (var item in ViewBag.Preparadores)
+        {
+          <div class="flex border p-3 justify-center items-center">
+            <p class="text-sm">@item.Nombre</p>
+          </div>
+        }
+      </div>
     </div>
   </section>
 
@@ -87,5 +100,5 @@
   </footer>
 
 </body>
-</html>
 
+</html>
