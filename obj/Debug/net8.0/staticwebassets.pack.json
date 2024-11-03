@@ -1,95 +1,95 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RegistroPreparadurias.bundle.scp.css",
-      "PackagePath": "staticwebassets\\RegistroPreparadurias.bundle.scp.css"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/projectbundle/RegistroPreparadurias.bundle.scp.css",
+      "PackagePath": "staticwebassets/RegistroPreparadurias.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\images\\LogoUnet.png",
-      "PackagePath": "staticwebassets\\images\\LogoUnet.png"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/images/LogoUnet.png",
+      "PackagePath": "staticwebassets/images/LogoUnet.png"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\images\\LogoUnetBlanco.png",
-      "PackagePath": "staticwebassets\\images\\LogoUnetBlanco.png"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/images/LogoUnetBlanco.png",
+      "PackagePath": "staticwebassets/images/LogoUnetBlanco.png"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RegistroPreparadurias.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RegistroPreparadurias.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RegistroPreparadurias.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.RegistroPreparadurias.props",
       "PackagePath": "build\\RegistroPreparadurias.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RegistroPreparadurias.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.RegistroPreparadurias.props",
       "PackagePath": "buildMultiTargeting\\RegistroPreparadurias.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RegistroPreparadurias.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.RegistroPreparadurias.props",
       "PackagePath": "buildTransitive\\RegistroPreparadurias.props"
     }
   ],

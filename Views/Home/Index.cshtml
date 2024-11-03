@@ -1,6 +1,6 @@
 ﻿@{
   ViewData["Title"] = "Home Page";
-  string[] dia = new string[] {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes"};
+  string[] dia = new string[] {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes"};
   int j = 0;
 }
 
@@ -12,12 +12,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro de Asistencia</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hide-scrollbar {
+            overflow: -webkit-paged-x;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
   <!-- Navbar -->
-  <header class="sticky top-0 z-50 bg-blue-800 text-white  w-full">
+  <header class="sticky top-0 z-50 bg-blue-800 text-white w-full">
     <div class="flex items-center p-3 w-full">
       <nav class="flex justify-between w-full items-center">
         <button
@@ -27,7 +37,6 @@
           <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
           <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
         </button>
-
 
         <img src="~/images/LogoUnetBlanco.png" class="h-12" />
       </nav>
@@ -39,7 +48,7 @@
     <div class="container mx-auto text-center">
       <h1 class="text-4xl font-bold mb-4">Bienvenido al Sistema de Registro de Asistencia</h1>
       <p class="text-lg mb-8">Facilitamos el control de asistencia de estudiantes de forma rápida y eficiente.</p>
-      <a href="#"
+      <a asp-action="Registro" asp-controller="Home"
         class="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-blue-100 transition duration-300">Registrar
         Estudiante</a>
     </div>
@@ -90,9 +99,9 @@
       </div>
 
       <!-- Preparadores -->
-      <div class="grid grid-rows-3 grid-flow-col gap-2 p-2">
+      <div class="grid grid-rows-3 grid-flow-col gap-2 p-2 overflow-scroll hide-scrollbar">
         <div class="flex border p-3 justify-center items-center bg-blue-700">
-            <p class="text-sm">Hora/Día</p>
+            <p class="text-sm">Hora|Día</p>
         </div>
         <div class="flex border p-3 justify-center items-center bg-blue-700">
             <p class="text-sm">8:00 - 10:00</p>

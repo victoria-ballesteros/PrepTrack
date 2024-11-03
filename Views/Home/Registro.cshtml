@@ -1,0 +1,62 @@
+@model RegistroPreparadurias.Models.Registro;
+
+<div class="w-full h-full">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-blue-800 text-white w-full">
+        <div class="flex items-center p-3 w-full">
+            <nav class="flex justify-between w-full items-center">
+                <button
+                    class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
+                    <span
+                        class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
+                    <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
+                    <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
+                </button>
+
+                <img src="~/images/LogoUnetBlanco.png" class="h-12" />
+            </nav>
+        </div>
+    </header>
+    <div class="bg-blue-600 text-white py-20 text-center">
+        <div class="p-4 text-center">
+            <p class="text-4xl font-bold mb-4">Registro de Estudiantes</p>
+            <p class="text-lg">Por favor completa los campos solicitados a continuación, no sea imbécil</p>
+        </div>
+    </div>
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Form -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <form asp-action="Registrar" method="post" enctype="multipart/form-data">
+                        <div class="flex flex-col gap-2">
+                            <div>
+                                <span class="text-sm dark:text-twitterDark-textPrimary">Name</span>
+                                <textarea asp-for="Cedula" id="nameInput" name="name" spellcheck="false"
+                                    autocomplete="off" placeholder="Name"
+                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
+                                    rows="1"></textarea>
+                            </div>
+                            <div>
+                                <span class="text-sm dark:text-twitterDark-textPrimary">Username</span>
+                                <textarea asp-for="NombreMateria" id="usernameInput" name="username" spellcheck="false"
+                                    autocomplete="off" placeholder="Username"
+                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
+                                    rows="1"></textarea>
+                                <div id="searchResult" class="">
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm dark:text-twitterDark-textPrimary">Biography</span>
+                                <textarea asp-for="Preparador" id="descriptionInput" name="description"
+                                    spellcheck="false" autocomplete="off" placeholder="Say something about you"
+                                    class="w-full placeholder-gray-500 p-2 border rounded-lg resize-none dark:bg-twitterDark-background dark:text-twitterDark-textPrimary"
+                                    rows="1"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

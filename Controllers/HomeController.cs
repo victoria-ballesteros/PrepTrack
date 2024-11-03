@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RegistroPreparadurias.Models;
 using RegistroPreparadurias.Models.Preparadores;
+using RegistroPreparadurias.Models.Registro;
 
 namespace RegistroPreparadurias.Controllers;
 
@@ -31,6 +32,16 @@ public class HomeController : Controller
         ViewBag.Preparadores = preparadores;
 
         return View();
+    }
+
+    public IActionResult Registro()
+    {
+        return View();
+    }
+
+    public async Task<IActionResult> Registrar(Registro registro)
+    {
+        return RedirectToAction("Registro");
     }
 
     public IActionResult Privacy()

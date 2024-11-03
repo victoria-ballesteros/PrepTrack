@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d8sUAxJUSaxSNO3d+b5KjsGB/pZvmBw33hvk5Rlpc50=",
+  "Hash": "IdaGkDofCJ4bbO4QSsmW9tY1gy/19yNE0gi06b/NZus=",
   "Source": "RegistroPreparadurias",
   "BasePath": "_content/RegistroPreparadurias",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "RegistroPreparadurias\\wwwroot",
+      "Name": "RegistroPreparadurias/wwwroot",
       "Source": "RegistroPreparadurias",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RegistroPreparadurias.styles.css",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/bundle/RegistroPreparadurias.styles.css",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "RegistroPreparadurias.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RegistroPreparadurias.styles.css"
+      "OriginalItemSpec": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/bundle/RegistroPreparadurias.styles.css"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RegistroPreparadurias.bundle.scp.css",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/projectbundle/RegistroPreparadurias.bundle.scp.css",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "RegistroPreparadurias.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RegistroPreparadurias.bundle.scp.css"
+      "OriginalItemSpec": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/Debug/net8.0/scopedcss/projectbundle/RegistroPreparadurias.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\css\\app.css",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/css/app.css",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\app.css"
+      "OriginalItemSpec": "wwwroot/css/app.css"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\css\\site.css",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/css/site.css",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\favicon.ico",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/favicon.ico",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\images\\LogoUnet.png",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/images/LogoUnet.png",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "images/LogoUnet.png",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\LogoUnet.png"
+      "OriginalItemSpec": "wwwroot/images/LogoUnet.png"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\images\\LogoUnetBlanco.png",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/images/LogoUnetBlanco.png",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "images/LogoUnetBlanco.png",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\LogoUnetBlanco.png"
+      "OriginalItemSpec": "wwwroot/images/LogoUnetBlanco.png"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\js\\site.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/js/site.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "RegistroPreparadurias",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\wwwroot\\",
+      "ContentRoot": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/wwwroot/",
       "BasePath": "_content/RegistroPreparadurias",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -394,7 +394,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }
