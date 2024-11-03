@@ -1,5 +1,7 @@
 ﻿@{
   ViewData["Title"] = "Home Page";
+  string[] dia = new string[] {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes"};
+  int j = 0;
 }
 
 <!DOCTYPE html>
@@ -81,15 +83,41 @@
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-bold mb-4">¿Listo para empezar?</h2>
       <p class="text-lg mb-8">Únete y facilita el control de asistencia de tus estudiantes.</p>
-      <div class="grid grid-cols-5 gap-2 p-2">
-        @foreach (var item in ViewBag.Preparadores)
+    <div class="grid gap-2"> <!-- Añadido gap para separación -->
+      <!-- Días de la semana -->
+      <div class="grid grid-rows-1 grid-flow-col gap-2 p-2">
+
+      </div>
+
+      <!-- Preparadores -->
+      <div class="grid grid-rows-3 grid-flow-col gap-2 p-2">
+        <div class="flex border p-3 justify-center items-center bg-blue-700">
+            <p class="text-sm">Hora/Día</p>
+        </div>
+        <div class="flex border p-3 justify-center items-center bg-blue-700">
+            <p class="text-sm">8:00 - 10:00</p>
+        </div>
+        <div class="flex border p-3 justify-center items-center bg-blue-700">
+            <p class="text-sm">10:00 - 12:00</p>
+        </div>
+        @for (int i = 0; i < ViewBag.Preparadores.Count; i++)
         {
+            
+            @if(i==0 ||i%2==0){
+                
+                <div class="flex border p-3 justify-center items-center bg-blue-700">
+                    <p class="text-sm">@dia[j++]</p>
+                </div>
+
+            }
           <div class="flex border p-3 justify-center items-center">
-            <p class="text-sm">@item.Nombre</p>
+            <p class="text-sm">@ViewBag.Preparadores[i].Nombre</p>
           </div>
+          
         }
       </div>
     </div>
+  </div>
   </section>
 
   <!-- Footer -->

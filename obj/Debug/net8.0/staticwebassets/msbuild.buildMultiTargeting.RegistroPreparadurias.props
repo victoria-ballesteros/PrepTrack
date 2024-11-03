@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/RegistroPreparadurias.props" />
+  <Import Project="..\build\RegistroPreparadurias.props" />
 </Project>

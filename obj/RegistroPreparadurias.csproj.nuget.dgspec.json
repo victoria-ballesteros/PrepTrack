@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/RegistroPreparadurias.csproj": {}
+    "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\RegistroPreparadurias.csproj": {}
   },
   "projects": {
-    "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/RegistroPreparadurias.csproj": {
+    "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\RegistroPreparadurias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/RegistroPreparadurias.csproj",
+        "projectUniqueName": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\RegistroPreparadurias.csproj",
         "projectName": "RegistroPreparadurias",
-        "projectPath": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/RegistroPreparadurias.csproj",
-        "packagesPath": "/home/victoria/.nuget/packages/",
-        "outputPath": "/home/victoria/Documents/GilberGoat/RegistroPreparadurias/obj/",
+        "projectPath": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\RegistroPreparadurias.csproj",
+        "packagesPath": "C:\\Users\\vetan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vetan\\OneDrive\\Documentos\\UNET\\Intrasemestral 2024\\Programación II\\Practica4\\PrepTrack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/victoria/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vetan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -70,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
