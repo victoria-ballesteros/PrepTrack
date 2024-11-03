@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RegistroPreparadurias</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RegistroPreparadurias.styles.css" asp-append-version="true" />
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Añadir Tailwind CSS -->
+</head>
+<body>
+    <header>
+        <nav class="bg-white border-b shadow mb-3">
+            <div class="container mx-auto flex items-center justify-between py-4">
+                <a class="text-lg font-semibold" asp-area="" asp-controller="Home" asp-action="Index">RegistroPreparadurias</a>
+                <button class="sm:hidden text-gray-500 focus:outline-none" type="button" aria-label="Toggle navigation">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7"/></svg>
+                </button>
+                <div class="hidden sm:flex space-x-4">
+                    <a class="text-gray-700 hover:text-gray-900" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="text-gray-700 hover:text-gray-900" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mx-auto px-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-t text-gray-500 mt-8">
+        <div class="container mx-auto px-4 py-4 text-center">
+            &copy; 2024 - RegistroPreparadurias - <a class="hover:text-gray-700" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
