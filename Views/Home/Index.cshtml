@@ -2,7 +2,90 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Asistencia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-blue-800 text-white  w-full">
+    <div class="flex items-center p-3 w-full">
+      <nav class ="flex justify-between w-full items-center" >
+        <button class="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-semibold text-blue-700 transition duration-300 ease-out rounded-sm shadow-lg group hover:ring-2 hover:ring-offset-2 hover:ring-blue-500">
+        <span class="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-300 to-blue-500 transition-transform duration-300 ease-out transform translate-x-[-100%] group-hover:translate-x-0"></span>
+        <span class="absolute inset-0 w-full h-full rounded-sm border-2 border-blue-500"></span>
+         <span class="relative text-white font-bold group-hover:text-white">Inicio</span>
+        </button>
+
+
+        <img src="~/images/LogoUnetBlanco.png" class="h-12" />
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold mb-4">Bienvenido al Sistema de Registro de Asistencia</h1>
+      <p class="text-lg mb-8">Facilitamos el control de asistencia de estudiantes de forma rápida y eficiente.</p>
+      <a href="#" class="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-blue-100 transition duration-300">Registrar Estudiante</a>
+    </div>
+  </section>
+
+  <!-- How it Works Section -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">¿Cómo funciona?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Step 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="mb-4">
+            <span class="text-blue-600 text-4xl font-bold">1</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Registro de Estudiantes</h3>
+          <p class="text-gray-600">Los estudiantes se registran proporcionando sus datos básicos.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="mb-4">
+            <span class="text-blue-600 text-4xl font-bold">2</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Toma de Asistencia</h3>
+          <p class="text-gray-600">Se registra la asistencia diariamente con solo unos clics.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="mb-4">
+            <span class="text-blue-600 text-4xl font-bold">3</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Reportes en Tiempo Real</h3>
+          <p class="text-gray-600">Genera y visualiza reportes de asistencia en tiempo real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-blue-600 text-white py-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">¿Listo para empezar?</h2>
+      <p class="text-lg mb-8">Únete y facilita el control de asistencia de tus estudiantes.</p>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Registro de Asistencia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
